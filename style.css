@@ -1,0 +1,172 @@
+/***************************************** Сбрасываем базовые стили ************************************/
+body, h1,h2,h3,h4,h5,h6, ul {
+	margin: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+
+/**************************************** Выравнивание контента **************************************/
+.container {
+	max-width: 997px;
+	width: 100%;
+	margin: 0 auto;
+}
+/**************************************** Общие стили макета ****************************************/
+
+/* ~ ШАПКА САЙТА */
+.wrap-site {
+	max-width: 1156px;
+	margin: 0 auto;
+	width: 100%;
+}
+.header {
+	width: 100%;
+	height: 100vh;
+	background-image: url("images/header-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: 0 50px;
+	background-color: blue;
+}
+/* Шапка-верх */
+.header-top {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: white;
+}
+.container__header-top {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-logo {
+}
+.header-nav {
+}
+.header-nav__list {
+	display: flex;
+	flex-wrap: wrap;
+}
+.header-nav__item {
+	margin-right: 15px;
+}
+.header-nav__item:last-child {
+	margin-right: 0;
+}
+.header-nav__link {
+}
+/* Шапка-низ */
+.header-bottom {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: calc(100% - 68px);
+}
+.header-bottom__title {
+	/*font-size: 60px;*/
+	color: #FFFFFF;
+	/*text-transform: uppercase;*/
+}
+.header-bottom__title::after {
+	content: "";
+	display: block;
+	width: 80px;
+	height: 10px;
+	margin: 0 auto;
+	background-color: #817070;
+}
+
+/* ~ СЕКЦИЯ STORY */
+
+.story {
+	padding: 40px 0;
+}
+.story__title {
+	text-align: center;
+	margin-bottom: 40px;
+	font-size: 36px;
+}
+.container-story {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.story__text {
+	max-width: 460px;
+	margin-left: 40px;
+}
+
+/* СЕКЦИЯ BLOG */
+.blog {
+	background-color: #EFEFEF;
+	padding-bottom: 50px;
+}
+.blog__title {
+	text-align: center;
+	padding: 60px 0;
+}
+.container-blog {
+	/*padding: 0 30px;*/
+}
+.blog-articles {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	/*flex-wrap: wrap;*/
+}
+.blog-article {
+	padding: 20px 20px;
+	background-color: #FFFFFF;
+	max-width: 285px;
+}
+.blog-article__title {
+	margin-bottom: 10px;
+}
+.blog-article__image {
+	width: 100%;
+}
+.blog-article__text {
+}
+
+
+/* Подвал сайта */
+
+.subscibe {
+	background-color: #817070;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 60px 0;
+}
+.subscibe-form {
+}
+.subscibe-form__title {
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+.subscibe-form__email {
+	width: 300px;
+	height: 55px;
+	display: block;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.subscibe-form__submit {
+	display: block;
+	width: 129px;
+	height: 55px;
+	margin: 0 auto;
+}
+.copyriting {
+}
+.copyriting__text {
+	text-align: center;
+}

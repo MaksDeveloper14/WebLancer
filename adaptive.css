@@ -1,0 +1,76 @@
+/* ШАПКА САЙТА */
+
+/* Для планшетов */
+
+@media screen and (max-width: 997px) { 
+	.container__header-top {
+		width: 90%;
+	}
+	.container-story {
+		flex-wrap: wrap;
+	}
+	.story__image {
+		margin-bottom: 36px;
+	}
+	.story__text {
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 767px) { 
+	.story__image {
+		width: 80%;
+	}
+	.story__text {
+		max-width: 66%;
+	}
+	.blog-article {
+		
+	}
+}
+
+/* Для мобильных телефонов */
+
+@media screen and (max-width: 510px) { 
+	.container__header-top {
+		flex-direction: column;
+	}
+	.header-logo {
+		margin-bottom: 12px;
+	}
+	.header-nav__list {
+		padding-left: 0;
+	}
+}
+
+@media screen and (max-width: 390px) { 
+	.story__title {
+		font-size: 32px;
+	}
+	.header-bottom__title {
+		font-size: 32px;
+	}
+	.blog-article {
+		max-width: 225px;
+	}
+	.story__title {
+		font-size: 28px;
+	}
+	.blog__title {
+		padding: 40px 0;
+	}
+	.subscibe-form__title {
+		font-size: 24px;
+	}
+	.subscibe-form__email {
+		width: 220px;
+		height: 34px;
+	}
+	.subscibe-form__submit {
+		height: 38px;
+	}
+}
+
+
+
+
