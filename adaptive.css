@@ -44,8 +44,14 @@
 }
 
 @media screen and (max-width: 390px) { 
+	.header {
+		height: 75vh;
+	}
 	.story__title {
 		font-size: 32px;
+	}
+	.story__image {
+		width: 100%;
 	}
 	.header-bottom__title {
 		font-size: 32px;
@@ -60,14 +66,15 @@
 		padding: 40px 0;
 	}
 	.subscibe-form__title {
-		font-size: 24px;
+		font-size: 22px;
 	}
 	.subscibe-form__email {
-		width: 220px;
+		width: 170px;
 		height: 34px;
 	}
 	.subscibe-form__submit {
-		height: 38px;
+		width: 102px;
+		height: 32px;
 	}
 }
 
